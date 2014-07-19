@@ -1,7 +1,8 @@
-<h1>公共参数：</h1>
-<h3>必选：</h3>
-<strong>id </strong>： 100 //用户id
-<strong>authentication </strong>： 鉴权码 //通过用户id和密码鉴权，避免用户操作他人信息
+# 公共参数：
+### 必选：
+**id** ： 100 //用户id
+
+**authentication**： 鉴权码 //通过用户id和密码鉴权，避免用户操作他人信息
 
 
 <h1>API说明：</h1>
