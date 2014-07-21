@@ -17,18 +17,49 @@
 **id**:用户id,长度必须为24位
 ##### 返回 #####
 **成功：**
+{
+    "result": 0,
+    "data": {
+        "id": "53ca24b1badeb81003d63af1",
+        "name": null,
+        "tel": null,
+        "realname": null,
+        "nickname": null,
+        "role": "",
+        "is_verified": "\u0000",
+        "social": null,
+        "campus_id": null,
+        "config": null
+    }
+}
 
 **失败：**
+{
+    "result": 1,
+    "msg": "id invalid"
+}
 
 ### 1.2 user/login
 **url**:$HOME/user/login
 
 #### GET方法 ####
-获取用户登录状体
+获取用户登录状态
 ##### 返回 #####
 **成功：**
+{
+    "result": 0,
+    "data": {
+        "result": 1
+    }
+}
 
 **失败：**
+{
+    "result": 0,
+    "data": {
+        "result": 0
+    }
+}
 
 
 
